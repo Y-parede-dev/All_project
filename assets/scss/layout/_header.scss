@@ -1,0 +1,15 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    @include gradient(180deg, map-get($colors, header_1)  59%, map-get($colors, header_2) 95%)
+}
+header .logo {
+    margin: 2.5% 27% ;
+}
+header h3 {
+    font-size: 5rem;
+    text-align: center;
+    margin: 5%;
+    @include gradient_txt();
+    
+}

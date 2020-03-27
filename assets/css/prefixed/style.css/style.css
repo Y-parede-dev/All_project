@@ -1,0 +1,58 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  font-size: 100%; }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 9fr 1fr; }
+
+main {
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
+  margin: 0 5%;
+  gap: 3.5rem; }
+
+h1 {
+  text-align: center;
+  font-size: 3.5rem; }
+
+.link {
+  background-image: url(../../../ALL_PROJECT/images/first.jpg);
+  box-shadow: .1rem .1rem 1.2rem 0 black;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.project, .project h2 {
+  display: flex; }
+
+.project {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 13rem 2rem 0; }
+
+.img_project {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content; }
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  background: linear-gradient(180deg, #48b5e0 59%, #5A08E0 95%); }
+
+header .logo {
+  margin: 2.5% 27%; }
+
+header h3 {
+  font-size: 5rem;
+  text-align: center;
+  margin: 5%;
+  background: linear-gradient(45deg, #404040 25%, white 55%, grey 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Njc3MvbWFpbi5zY3NzIiwiLi4vLi4vLi4vc2Nzcy9iYXNlL19iYXNlLnNjc3MiLCIuLi8uLi8uLi9zY3NzL2xheW91dC9faGVhZGVyLnNjc3MiLCIuLi8uLi8uLi9zY3NzL3V0aWxzL19taXhpbnMuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFdBQVc7RUFDWCxTQUFTO0VBQ1QsZUFBZSxFQUFBOztBQ0huQjtFQUNJLGFBQWE7RUFDYixrQ0FBbUMsRUFBQTs7QUFFdkM7RUFDSSxhQUFhO0VBQ2IsdUNBQXVDO0VBQ3ZDLFlBQVk7RUFDWixXQUFXLEVBQUE7O0FBR2Y7RUFDSSxrQkFBa0I7RUFDbEIsaUJBQWlCLEVBQUE7O0FBRXJCO0VBQ0ksNERBQTREO0VBQzVELHNDQUFzQztFQUd0Qyw0QkFBNEI7RUFDNUIsd0JBQXdCO0VBQ3hCLDRCQUE0QjtFQUM1QixzQkFBc0IsRUFBQTs7QUFHMUI7RUFDSSxhQUFhLEVBQUE7O0FBRWpCO0VBQ0ksYUFBYTtFQUNiLDJCQUEyQjtFQUMzQiw4QkFBOEI7RUFDOUIsb0JBQW9CLEVBQUE7O0FBR3hCO0VBQ0ksMEJBQWtCO0VBQWxCLHVCQUFrQjtFQUFsQixrQkFBa0IsRUFBQTs7QUNyQ3RCO0VBQ0ksYUFBYTtFQUNiLGtDQUFrQztFQ0lsQyw2REFBd0QsRUFBQTs7QURENUQ7RUFDSSxnQkFBaUIsRUFBQTs7QUFFckI7RUFDSSxlQUFlO0VBQ2Ysa0JBQWtCO0VBQ2xCLFVBQVU7RUNWVixvRUFBa0U7RUFDbEUsNkJBQTZCO0VBQzdCLG9DQUFvQyxFQUFBIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */

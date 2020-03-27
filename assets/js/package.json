@@ -1,0 +1,24 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ../scss/main.scss:../css/style.css",
+    "autoprefix": "postcss ../css/style.css --use autoprefixer -d ../css/prefixed/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserlist": [
+    "defaults"
+  ],
+  "bugs": {
+    "url": "https://github.com/Y-parede-dev/ALL_PROJET/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "autoprefixer": "^9.7.5",
+    "postcss": "^7.0.27",
+    "postcss-cli": "^7.1.0"
+  }
+}

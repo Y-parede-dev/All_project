@@ -1,0 +1,18 @@
+@mixin gradient_txt($rotate:45deg, $color_1:lighten(black, 25%) 25%, $color_2: white 55%, $color_3:grey 75%) {
+    background: linear-gradient($rotate, $color_1, $color_2, $color_3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+};
+@mixin gradient($rotate, $color_1, $color_2) {
+    background: linear-gradient($rotate, $color_1, $color_2);
+};
+
+
+@mixin Background($backgrounds) {
+    
+    @each $background in $backgrounds {
+        &--#{$background} {
+            background-image: url("../../../ALL_PROJECT/images/#{$background}.png");
+        }
+    }
+}

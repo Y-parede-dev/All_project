@@ -1,0 +1,10 @@
+@keyframes zoom_opacity {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        opacity: 0.45;
+        transform: scale(1.5);
+    }
+}

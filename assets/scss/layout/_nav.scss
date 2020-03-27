@@ -1,0 +1,20 @@
+.btn {
+    height: 2.5rem;
+    width: 5rem;
+    border-radius: .5rem .2rem ;
+    background-color: green;
+    cursor: pointer;
+    &:hover + ul {
+        display: block;
+        transform: scale(1);
+        background: grey;
+        transition: transform 4000ms ease-in-out;
+
+        }
+    }
+ul {
+    display: none;
+    transform: scale(0);
+    transition: transform 4000ms ease-in-out;
+}
+
